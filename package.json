@@ -8,7 +8,8 @@
   "exports": {
     ".": {
       "import": "./dist/node/differify.js",
-      "require": "./dist/commonjs/differify.commonjs.js"
+      "require": "./dist/commonjs/differify.commonjs.js",
+      "default": "./dist/node/differify.js"
     }
   },
   "files": [
