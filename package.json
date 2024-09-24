@@ -1,6 +1,6 @@
 {
-  "name": "@netilon/differify",
-  "version": "4.0.1",
+  "name": "@smartarray/differify",
+  "version": "4.1.0-alpha",
   "description": "Differify allows you to get the diff between two entities (objects diff, arrays diff, date diff, functions diff, number diff, etc) very easily, quickly and in a friendly way.",
   "main": "./dist/node/differify.js",
   "types": "./dist/node/differify.d.ts",
@@ -46,7 +46,8 @@
     "angular",
     "vue",
     "browser",
-    "netilon"
+    "netilon",
+    "smartarray"
   ],
   "author": "Fabian Roberto Orue <fabianorue@gmail.com> (https://www.netilon.com)",
   "repository": {
