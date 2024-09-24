@@ -2,8 +2,9 @@
   "name": "@netilon/differify",
   "version": "4.0.1",
   "description": "Differify allows you to get the diff between two entities (objects diff, arrays diff, date diff, functions diff, number diff, etc) very easily, quickly and in a friendly way.",
-  "main": "./index.js",
-  "types": "index.d.ts",
+  "main": "./dist/node/differify.js",
+  "types": "./dist/node/differify.d.ts",
+  "browser": "./dist/umd/differify.js",
   "files": [
     "index.js",
     "index.d.ts"
@@ -15,7 +16,7 @@
     "build:node": "tsc -p tsconfig.node.json",
     "build:umd": "webpack --config webpack.config.js",
     "build:decl": "tsc --emitDeclarationOnly --outDir ./dist/types",
-    "build": "npm run build:node && npm run build:umd && yarn build:decl",
+    "build": "rm -rf ./dist && npm run build:node && npm run build:umd",
     "prepare": "npm run test -- --coverage && npm run build",
     "lint": "eslint ./src",
     "test": "jest",
