@@ -3,13 +3,13 @@
 ## One of the Fastest **deep** object/array diff
 
 - Benchmarks with other popular packages on the same category:
-  @netilon/differify x 1,045,377 ops/sec ±1.42% (93 runs sampled)
+  differify-js x 1,045,377 ops/sec ±1.42% (93 runs sampled)
 
       deep-object-diff x 184,838 ops/sec ±2.55% (85 runs sampled)
 
       recursive-diff x 108,276 ops/sec ±1.93% (94 runs sampled)
 
-      Fastest is @netilon/differify
+      Fastest is differify-js
 
 ## Whats new?
 
@@ -55,7 +55,7 @@ Differify allows you to get the diff between two entities (objects diff, arrays 
 
 ## Installation<a name="id1"></a>
 
-npm install @netilon/differify
+npm install differify-js
 
 ## How to use it<a name="id2"></a>
 
@@ -211,7 +211,7 @@ You can pass a config to the setConfig() method to change the behavior and adjus
 
 **Configuration example:**
 
-    const Differify = require('@netilon/differify');
+    const Differify = require('differify-js');
 
     differify = new Differify({ mode: { object: 'DIFF', array: 'DIFF' } });
 
@@ -241,7 +241,7 @@ tsconfig.json
 
 then in your .ts file, you can import Differify this way:
 
-    import Differify, { DIFF_MODES } from '@netilon/differify';
+    import Differify, { DIFF_MODES } from 'differify-js';
 
     // See the examples section.
 
