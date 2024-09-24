@@ -1,5 +1,5 @@
 {
-  "name": "@smartarray/differify",
+  "name": "differify-js",
   "version": "4.1.0-alpha",
   "description": "Differify allows you to get the diff between two entities (objects diff, arrays diff, date diff, functions diff, number diff, etc) very easily, quickly and in a friendly way.",
   "main": "./dist/node/differify.js",
